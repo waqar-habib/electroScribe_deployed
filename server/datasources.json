@@ -12,5 +12,15 @@
     "name": "mysql",
     "user": "root",
     "connector": "mysql"
+  },
+  "jawsdb": {
+    "host": "gp96xszpzlqupw4k.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "port": 3306,
+    "url": "mysql://lznk4plr0tbz8ulm:eqjejtqyn94erdly@gp96xszpzlqupw4k.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/jl2xrfkpdmi8krim",
+    "database": "jl2xrfkpdmi8krim",
+    "password": "eqjejtqyn94erdly",
+    "name": "jawsdb",
+    "user": "lznk4plr0tbz8ulm",
+    "connector": "mysql"
   }
 }
