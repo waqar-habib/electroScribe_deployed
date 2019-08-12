@@ -36,19 +36,19 @@
     "public": false
   },
   "patients": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "drugs": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "conditions": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "providers": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   }
 }
