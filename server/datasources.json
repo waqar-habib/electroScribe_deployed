@@ -5,9 +5,7 @@
   },
   "mysql": {
     "connector": "mysql",
-    // The url setting will be used only when JAWSDB_URL env var is defined
     "url": "${JAWSDB_URL}",
-    // configuration below is for development/staging environments only
     "host": "localhost",
     "port": 3306,
     "database": "electroscribe_db",
