@@ -11,6 +11,6 @@
     "database": "electroscribe_db",
     "password": "bootcamp",
     "name": "mysql",
-    "user": "root",
+    "user": "root"
   }
 }
