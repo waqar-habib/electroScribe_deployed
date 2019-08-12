@@ -12,7 +12,8 @@ var app = module.exports = loopback();
 
 app.start = function() {
   // start the web server
-  return app.listen(function() {
+  var PORT = process.env.PORT || 3000;
+  return app.listen(PORT, function() {
     app.emit('started');
     var baseUrl = app.get('url').replace(/\/$/, '');
     console.log('Browse electroScribe app at: %s', baseUrl);
